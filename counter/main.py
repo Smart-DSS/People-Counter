@@ -130,7 +130,7 @@ while True:
     # Calculate counts (Exit, Enter, Total)
     Exit = len(counter1)
     Enter = len(counter2)
-    total = Exit + Enter 
+    total = Exit - Enter 
 
     # Prepare JSON data for current frame
     timestamp_ist = datetime.now(ist)  # Get the current time in IST
